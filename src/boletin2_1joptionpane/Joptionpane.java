@@ -20,11 +20,13 @@ public class Joptionpane {
         // TODO code application logic here
         float base, altura, area;
         String resposta = JOptionPane.showInputDialog("Teclea la base");
+        //hola aron!
         base = Float.parseFloat(resposta);
         String resposta2 = JOptionPane.showInputDialog("Teclea la altura");
         altura = Float.parseFloat(resposta2);
         area = base+altura/2;
         JOptionPane.showMessageDialog(null,+area,"el area es ",JOptionPane.INFORMATION_MESSAGE);
+        //Introduciendo un cambio
         //JOptionPane.showMessageDialog(null,"El area es "+area);
         
     }
